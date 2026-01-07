@@ -124,8 +124,38 @@ Found an interesting tutorial? Click a button. See a cool project on X? One clic
 
 - **Node.js** 20+
 - **pnpm** 9+
-- **OpenCode** installed and configured with an AI provider
+- **[OpenCode](https://opencode.ai/)** - AI-powered coding assistant (required)
+- **[Sisyphus Agent](https://github.com/code-yeongyu/oh-my-opencode)** - Enhanced agentic experience (recommended)
 - **Telegram Bot Token** (optional, for Telegram integration)
+
+### Installing OpenCode
+
+OpenCode is the core AI engine that powers BuildFlow's research capabilities.
+
+```bash
+# Install OpenCode
+curl -fsSL https://opencode.ai/install | bash
+
+# Or via npm
+npm install -g opencode
+```
+
+After installation, configure your AI provider (Anthropic, OpenAI, etc.) by running `opencode` and following the setup prompts.
+
+For more details, visit [opencode.ai](https://opencode.ai/).
+
+### Installing Sisyphus Agent (Recommended)
+
+For the best agentic experience, install the Sisyphus agent from [oh-my-opencode](https://github.com/code-yeongyu/oh-my-opencode). Sisyphus provides enhanced orchestration capabilities, parallel task execution, and smarter delegation patterns.
+
+```bash
+# Clone oh-my-opencode
+git clone https://github.com/code-yeongyu/oh-my-opencode.git ~/.opencode/oh-my-opencode
+
+# The agent files will be available in your OpenCode configuration
+```
+
+Visit the [oh-my-opencode repository](https://github.com/code-yeongyu/oh-my-opencode) for detailed setup instructions and available agents.
 
 ---
 
@@ -134,8 +164,8 @@ Found an interesting tutorial? Click a button. See a cool project on X? One clic
 ### 1. Clone and install
 
 ```bash
-git clone <repo-url>
-cd x-agent-extension
+git clone https://github.com/BowTiedSwan/buildflow.git
+cd buildflow
 pnpm install
 ```
 
