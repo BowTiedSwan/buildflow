@@ -623,3 +623,9 @@ MIT
 ## Credits
 
 Built to work with [OpenCode](https://opencode.ai) - the AI-powered coding assistant.
+
+---
+
+## Support
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W31RTLJ6)
